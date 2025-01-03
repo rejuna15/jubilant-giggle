@@ -111,7 +111,7 @@ def operation_four(file_names, base_directory, row_name):
 def operation_six(file_names, base_directory, row_name):
 
     results = []
-    threshold="20,000,000,000"
+    threshold=20000000000
 
     for file_name in file_names:
         file_path = os.path.join(base_directory, file_name)
